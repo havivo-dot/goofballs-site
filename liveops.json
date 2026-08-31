@@ -1,7 +1,15 @@
 {
   "configVersion": 1,
   "messageOfTheDay": "New Goofballs drop every week! 🥚",
-  "event": null,
-  "codes": [],
+  "event": {
+    "id": "smoketest",
+    "title": "LIVE-OPS TEST",
+    "subtitle": "pushed from the site",
+    "emoji": "🛰️",
+    "coinMultiplier": 2.0
+  },
+  "codes": [
+    { "code": "REMOTE", "coins": 250, "message": "Straight from the internet. 250 coins." }
+  ],
   "balance": {}
 }
